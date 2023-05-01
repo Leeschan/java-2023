@@ -8,7 +8,7 @@ public class Student {
 	int number;
 	double weight;
 	//메소드 method
-	Student(){
+	public Student(){
 		weight=0;
 	}
 	
