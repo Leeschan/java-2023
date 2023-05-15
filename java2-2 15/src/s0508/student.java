@@ -10,6 +10,10 @@ public class student {
 	student(){
 		count++;
 	}
+	static int getCount() {
+		return count;
+	}
+	
 	void setName(String n){
 			name=n;	}
 	String getName() {
@@ -21,6 +25,7 @@ public class student {
 		int getGrade() {
 			return grade;
 		}
+
 		void setScore(float c) {
 			score=c;
 		}
